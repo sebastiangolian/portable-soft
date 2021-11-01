@@ -1,0 +1,37 @@
+50= 1 =General=Wyra¿enia ogólne=
+53= 1 =Toys & Fairy Tales=Bajki, zabawki=
+2= 1 =Body & Appearance=Cia³o i wygl¹d zewnêtrzny=
+31= 1 =Medicine=Choroby i leczenie=
+25= 1 =Time=Czas=
+10= 1 =History=Historia=
+16= 1 =Moving=Kierunek i ruch=
+17= 1 =Art=Kultura i sztuka=
+23= 1 =Shapes=Kszta³ty, kolory i przedmioty=
+13= 1 =Media=Media=
+19= 1 =Thoughts & Emotions=Myœli, uczucia i cechy=
+26= 1 =Town & village=Miasto i wieœ=
+11= 1 =House=Mieszkanie=
+14= 1 =Love & Sex=Mi³oœæ i seks=
+15= 1 =Mathematics=Matematyka i liczenie=
+22= 1 =Science=Nauka=
+6= 1 =Tools and Do-It-Yourself=Narzêdzia i majsterkowanie=
+18= 1 =Politics=Polityka=
+27= 1 =Travelling=Podró¿e=
+3= 1 =Money & Business=Pieni¹dze i biznes=
+9= 1 =Weather & Geography=Pogoda i geografia=
+52= 1 =Nature & plants=Roœliny i natura=
+7= 1 =Family=Rodzina=
+20= 1 =Religion=Religia i wiara=
+32= 1 =Car=Samochód=
+21= 1 =School=Szko³a=
+24= 1 =Sport=Sport=
+4= 1 =Clothes=Ubrania i rzeczy osobiste=
+99= 1 =W³asne ...=W³asne ...=
+30= 1 =At Work=W pracy=
+28= 1 =Army & War=Wojsko i wojna=
+1= 1 =Animals=Zwierzêta=
+29= 1 =Shopping=Zakupy=
+12= 1 =Law=Zbrodnia i kara=
+55= 1 =Party=¯ycie towarzyskie=
+8= 1 =Food=¯ywnoœæ i kuchnia=
+56= 1 =Zwroty=Zwroty=

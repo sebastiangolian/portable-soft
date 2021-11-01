@@ -1,0 +1,176 @@
+z11001 =  =  = Wielka Brytania, Londyn, London Eye =
+z11158 =  =  = Edynburg, centrum miasta - Szkocja = 557077.PCD=City center, Edinburgh, Scotland
+z11219 =  =  = Ruiny zamku Corfe, Dorset - Wielka Brytania = 509039.PCD=Corfe Castle, Dorset
+z11083 =  =  = Ogród przed Buckingham Palace, Londyn =
+z11278 =  =  = Stacja kolejowa Waterloo - Londyn = 368041.PCD=Waterloo train station, London
+z11279 =  =  = Panorama Londynu = 368043.PCD=Bird's-eye-view, central London
+z11004 =  =  = Parada przed Pa³acem Buckingham, Londyn= 
+z11220 =  =  = Zamek Bamburgh i cmentarz przykoœcielny - Wielka Brytania = 509044.PCD=Bamburgh Castle and churchyard from Northumberland
+z11221 =  =  = Regent Street - Londyn = 509049.PCD=Regent Street, London
+z11223 =  =  = Ruiny zamku Tintagel - Kornwalia = 509054.PCD=Tintagel Castle, North Cornwall
+z11224 =  =  = Opuszczona kopalnia, St. Agnes - Kornwalia = 509055.PCD=Wheal Coates Mine, St. Agnes, North Cornwall
+z11227 =  =  = Ruiny opactwa Fountains - Wielka Brytania = 509073.PCD=Picnickers at Fountains Abbey, North Yorkshire
+z11292 =  =  = Odpoczynek w St. Jame's Park - Londyn = 368091.PCD=St. Jame's Park
+z11002 =  =  = Wielka Brytania, Londyn, Tower Bridge =
+z11003 =  =  = The National Gallery, Londyn =
+z11005 =  =  = Wielka Brytania, Londyn, Canary Wharf Station =
+z11006 =  =  = Tampa - USA = 487088.PCD=Downtown Tampa, Florida
+z11007 =  =  = Wielka Brytania, Londyn =
+z11008 =  =  = Imperial War Museum, Londyn =
+z11009 =  =  = Wielka Brytania, Londyn =
+z11011 =  =  = Lotnisko Heathrow, Londyn =
+z11012 =  =  = Góra Rushmore - Czarne Góry, Po³udniowa Dakota, USA = 551005.PCD=Mount Rushmore, Black Hills, South Dakota
+z11013 =  =  = Wielka Brytania, Londyn, Big Ben i budynek Parlamentu =
+z11014 =  =  = Muzeum Guggenheima - Nowy Jork, USA = 551023.PCD=Guggenheim Museum, New York City
+z11015 =  =  = Wielka Brytania, Londyn, Muzeum Historii Naturalnej =
+z11016 =  =  = Wielka Brytania, Londyn, patrol policji konnej =
+z11017 =  =  = Wielka Brytania, Londyn noc¹=
+z11018 =  =  = Wielka Brytania, Londyn, Tamiza noc¹ =
+z11019 =  =  = Wielki Kanion - USA  = 551064.PCD=Mather Point, Grand Canyon
+z11020 =  =  = Most Brookliñski - Nowy Jork, USA = 551065.PCD=Brooklyn Bridge and lower Manhattan, New York City
+z11021 =  =  = Kapitol - Waszyngton, USA = 551070.PCD=U.S. Capitol and reflection pool, Washington D.C.
+z11022 =  =  = Koœció³ Œw. Ksawerego - Tuscon, USA = 467047.PCD=San Xavier Del Bac Mission, Tucson, Arizona
+z11023 =  =  = Westminster Abbey, Londyn =
+z11024 =  =  = Wielka Brytania, Londyn, London Eye =
+z11026 =  =  = Pomnik poœwiêcony ¿o³nierzom walcz¹cym na wyspie Iwo Jima - Arlington, USA = 472051.PCD=Iwo Jima Memorial, Washington, D.C.
+z11027 =  =  = Pomnik poœwiêcony ¿o³nierzom walcz¹cym w Wietnamie - Waszyngton, USA = 472072.PCD=Statue of soldiers overlooking Vietnam Memorial, Washington
+z11028 =  =  = Piccadilly Circus, Londyn =
+z11029 =  =  = Kr¹¿ownik HMS Belfast, Londyn =
+z11030 =  =  = Muzeum Historii Naturalnej, Londyn =
+z11031 =  =  = Wielka Brytania, Londyn =
+z11032 =  =  = Pomnik królowej Wiktorii przed Pa³acem Buckingham, Londyn =
+z11033 =  =  = Widok na Pa³ac Buckingham z parku St.James's, Londyn =
+z11034 =  =  = Imperial War Museum, Londyn =
+z11036 =  =  = Wielka Brytania, Londyn, Tamiza =
+z11037 =  =  = Tamiza - widok na pó³nocny Londyn =
+z11038 =  =  = Tradycyjna londyñska taksówka, Londyn =
+z11039 =  =  = Wielka Brytania, Londyn, Big Ben i budynek parlamentu noc¹ =
+z11040 =  =  = Victoria Station, Londyn =
+z11041 =  =  = Wielka Brytania, Londyn =
+z11042 =  =  = Gateway Arch - St. Louis, USA = 632031.PCD=Gateway Arch, St. Louis, Missouri
+z11043 =  =  = Wielka Brytania, Londyn, Tamiza =
+z11044 =  =  = Budynek Senatu - Waszyngton, USA = 632034.PCD=The Senate, Washington, D.C.
+z11045 =  =  = Imperial War Museum, Londyn =
+z11046 =  =  = Wodospad Niagara - USA = 632043.PCD=Niagara Falls, New York
+z11047 =  =  = Brooklyn i Manhattan z lotu ptaka - Nowy Jork, USA = 632047.PCD=Brooklyn and Manhattan from the air, New York
+z11048 =  =  = Widok z zapory Hoovera - Newada, USA = 632073.PCD=View from Hoover Dam, Nevada/Arizona
+z11049 =  =  = Wielka Brytania, Londyn, policjanci =
+z11050 =  =  = Wielka Brytania, Londyn, stacja metra =
+z11051 =  =  = Wielka Brytania, Londyn, Canary Wharf Station =
+z11052 =  =  = Wielka Brytania, Londyn =
+z11053 =  =  = Wielka Brytania, Londyn, kantor =
+z11055 =  =  = "Zakrêt podkowy" na rzece Kolorado - Arizona, USA = 632093.PCD=Horseshoe Bend, Colorado River, Arizona
+z11056 =  =  = Wielka Brytania, Londyn, Big Ben i budynek parlamentu =
+z11057 =  =  = Piccadilly Circus, Londyn =
+z11058 =  =  = Wielka Brytania, Londyn =
+z11059 =  =  = Lodowiec - Alaska, USA = 114007.PCD=Portage Glacier, Alaska
+z11060 =  =  = Millenium Bridge, Londyn =
+z11061 =  =  = Wielka Brytania, Londyn =
+z11062 =  =  = Wielka Brytania, Londyn =
+z11064 =  =  = Jezioro Powella - Utah, USA = 295028.PCD=Lake Powell at the Glen Canyon Dam, Utah, U.S.A.
+z11065 =  =  = Wielka Brytania, Londyn - London Eye=
+z11067 =  =  = Tradycyjny piêtrowy autobus, Londyn =
+z11068 =  =  = Piccadilly Circus, Londyn =
+z11069 =  =  = Dolina Monumentów - Arizona, USA = 295048.PCD=Monument Valley Navajo Lands, Arizona, U.S.A.
+z11070 =  =  = Piccadilly Circus, Londyn = 
+z11071 =  =  = Wielka Brytania, Londyn, Tower Bridge =
+z11072 =  =  = Ruiny indiañskiego miasta wykutego w górach - Kolorado, USA = 295077.PCD=Ancient Anasazi Ruins Cliff Palace, Colorado, U.S.A.
+z11073 =  =  = Las w Stanie Waszyngton - USA = 482050.PCD=Ethereal forest pool, Stillaguamish River, Washington, USA
+z11074 =  =  = Las w Stanie Oregon - USA = 482098.PCD=Ponderosa Forest, Winema, Oregon, USA
+z11075 =  =  = "Pla¿a Zachodz¹cego S³oñca" - Hawaje, USA = 345019.PCD=Sunset Beach, Oahu, Hawaii
+z11076 =  =  = Wielka Brytania, Londyn =
+z11077 =  =  = Wielka Brytania, Londyn, London Eye noc¹ =
+z11078 =  =  = Market Covent Garden, Londyn =
+z11079 =  =  = Wielka Brytania, Londyn =
+z11080 =  =  = Wielka Brytania, Londyn =
+z11081 =  =  = Wielka Brytania, Londyn, Tamiza oraz Big Ben i budynek parlamentu =
+z11082 =  =  = Tradycyjne londyñskie autobusy =
+z11084 =  =  = Westminster Abbey, Londyn =
+z11085 =  =  = Wielka Brytania, Londyn, London Eye =
+z11096 =  =  = Zamek Bamburgh - Wielka Brytania  = 612055.PCD=Bamburgh Castle, Northumberland, England
+z11097 =  =  = Zamek Bamburgh - Wielka Brytania  = 612058.PCD=Bamburgh Castle, Northumberland, England
+z11090 =  =  = Edynburg o wschodzie s³oñca - Szkocja = 383087.PCD=Edinburgh, Scotland
+z11094 =  =  = Zamek Windsor - Wielka Brytania = 612032.PCD=Windsor Castle, England
+z11099 =  =  = Zamek Edynburg - Szkocja = 612074.PCD=Edinburgh Castle, Scotland
+z11101 =  =  = Zamek Bodium - Wielka Brytania  = 612090.PCD=Bodium Castle, Kent, England
+z11103 =  =  = Zamek Chestow - Walia = 525050.PCD=Chestow Castle, Gwent, Wales
+z11104 =  =  = Oxford, ogród uniwersytecki - Wielka Brytania = 597003.PCD=Christ Church Memorial Garden, Oxford, England
+z11105 =  =  = Katedra Œw. Paw³a - Londyn = 597024.PCD=St. Paul's Cathedral illuminated, London, England
+z11108 =  =  = Katedra w Exeter - Kornwalia = 597093.PCD=Exeter Cathedral, Cornwall, England
+z11112 =  =  = Stonehenge - Wielka Brytania = 551019.PCD=Stonehenge, England
+z11113 =  =  = Tower Bridge - Londyn = 551066.PCD=Tower Bridge at night, London, England
+z11114 =  =  = Westminster Bridge i Big Ben - Londyn = 551068.PCD=Westminster Bridge and Big Ben, London, England
+z11115 =  =  = Sala koncertowa Royal Albert Hall - Londyn = 551075.PCD=Royal Albert Hall, London, England
+z11116 =  =  = Katedra Œw. Finbara, Cork - Irlandia = 467053.PCD=St. Finbar's Cathedral, Cork, Ireland
+z11117 =  =  = Pomnik Winstona Churchilla i Big Ben - Londyn = 472027.PCD=Big Ben and Winston Churchill, London, England
+z11118 =  =  = Armata Flemisha - Londyn = 472061.PCD=Flemish cannon, Tower of London, England
+z11119 =  =  = Zamek Carew - Walia = 555027.PCD=Carew Castle, West Wales
+z11120 =  =  = Zamek Beaumaris - Walia = 555054.PCD=Beaumaris Castle, Anglesey, North Wales
+z11121 =  =  = Ruiny zamku St.Andrews - Szkocja = 555086.PCD=The castle ruins, Fife, Scotland
+z11122 =  =  = Stonehenge - Wielka Brytania = 321096.PCD=Stonehenge, England
+z11133 =  =  = Las Sherwood - Wielka Brytania = 482061.PCD=Sherwood Forest, England
+z11138 =  =  = Zamek Beaumaris, widok z lotu ptaka - Walia = 557002.PCD=Aerial view, Beaumaris Castle, Wales
+z11139 =  =  = Zamek Conwy, Walia =
+z11095 =  =  = Zamek Bodium - Wielka Brytania = 612047.PCD=Bodium Castle, England
+z11098 =  =  = Zamek Enniskillen - Pó³nocna Irlandia = 612065.PCD=Enniskillen Castle, County Fermanagh, Northern Ireland
+z11145 =  =  = Katedra w Somerset - Walia = 557030.PCD=Cathedral, Somerset, England
+z11146 =  =  = Tradycyjna angielska rezydencja, ogród = 557033.PCD=Formal garden, English country manor, England
+z11148 =  =  = Wybrze¿e Kornwalii = 557041.PCD=The Lizard, Kynance Cove, Cornwall, England
+z11149 =  =  = Wyspa Wight - Wielka Brytania = 557043.PCD=Cowes, Isle of Wight, England
+z11152 =  =  = Nowoczesne biurowce w dzielnicy portowej - Wielka Brytania = 557050.PCD=Canary Wharf development, Docklands, England
+z11154 =  =  = Tower Bridge noc¹, Londyn - Wielka Brytania = 557054.PCD=Tower Bridge, London, England
+z11160 =  =  = Zamek Conwy - Walia  = 557099.PCD=Conwy Castle, North Wales
+z11161 =  =  = Port w Liverpool - Wielka Brytania = 625079.PCD=Albert Dock, Liverpool, Merseyside
+z11164 =  =  = Pawilon królewski w Brighton - Wielka Brytania = 625013.PCD=Royal Pavilion, Brighton, Sussex
+z11165 =  =  = Ogród angielski, Wiltshire - Wielka Brytania = 625014.PCD=Stourhead Garden, Wiltshire
+z11172 =  =  = Londyn o wschodzie s³oñca = 625038.PCD=St. Paul's from the Embankment, London
+z11174 =  =  = Miasteczko Scarborough w harbstwie Yorkshire, Wielka Bretania =
+z11178 =  =  = Ogród Leven's Hall Topiary - Wielka Brytania = 625049.PCD=Leven's Hall Topiary Garden, Cumbria
+z11179 =  =  = Miasto Duntisbourne Leer - Wielka Brytania = 625051.PCD=Duntisbourne Leer, The Ford, Cotswald
+z11183 =  =  = Zespó³ The Beatles, Muzeum Figur Woskowych Madame Tussaud's - Londyn = 625058.PCD=The Beatles, Madame Tussaud's, London
+z11184 =  =  = Orkiestra wojskowa na paradzie - Londyn = 625062.PCD=Royal Coldstream Guards, London
+z11187 =  =  = Partia krykieta = 625066.PCD=Cricket, Central Park, Wallasey
+z11194 =  =  = Kamienio³omy granitu - Wielka Brytania = 625076.PCD=Ronez Granite Quarry, Jersey
+z11195 =  =  = Jacht królewski Britannia holowany po Tamizie = 625077.PCD=Royal yacht Britannia moored on the River Thames
+z11196 =  =  = Victoria Square, Birmingham - Wielka Brytania = 625078.PCD=Victoria Square, Birmingham
+z11197 =  =  = Miasto Lavenham - Wielka Brytania = 625080.PCD=Lavenham, Suffolk
+z11198 =  =  = Uniwersytet w Oxford - Wielka Brytania = 625088.PCD=Oxford University
+z11199 =  =  = Tradycyjna osada rybacka, Yorkshire - Wielka Brytania = 625093.PCD=Staithes fishing village, Yorkshire
+z11202 =  =  = Wie¿a obronna, Gloucester - Wielka Brytania = 625096.PCD=Broadway Tower, Gloucestershire
+z11204 =  =  = Pulteney Bridge i kaskady, Bath - Kornwalia = 625098.PCD=Pulteney bridge and weir, River Avon, Bath, Cornwall
+z11205 =  =  = Westminster Bridge - Londyn = 509000.PCD=Westminster Bridge, London
+z11206 =  =  = Uniwersytet w Oxford - Wielka Brytania = 509003.PCD=Pembroke College Hall is one of the largest at Oxford
+z11207 =  =  = Port w Exeter - Kornwalia = 509007.PCD=Canoeist, boats, Basin, Maritime Museum, Exeter, Cornwall
+z11233 =  =  = Tregothnan House - Wielka Brytania = 656005.PCD=Tregothnan House, home of Lord Falmouth
+z11234 =  =  = Mousehole Harbour, Kornwalia = 656011.PCD=Mousehole Harbor
+z11235 =  =  = Opuszczone kopalnie - Kornwalia = 656022.PCD=Precariously placed mineshaft at Botallack, Cornwall
+z11237 =  =  = Zamek Caerhays - Wielka Brytania = 656038.PCD=Caerhays Castle
+z11238 =  =  = Latarnia morska na Przyl¹dku Trevose, Kornwalia = 656041.PCD=Trevose Head Lighthouse
+z11239 =  =  = Tradycyjna osada rybacka, Mevagissey - Wielka Brytania = 656055.PCD=Inner Harbor, Mevagissey
+z11240 =  =  = Ruiny zamku Launceston - Wielka Brytania = 656061.PCD=Launceston Castle
+z11241 =  =  = Poci¹g jad¹cy przez Kornwaliê = 656063.PCD=Cornish Riviera Express, Lostwithiel
+z11242 =  =  = Opuszczona kopalnia - Kornwalia  = 656071.PCD=Wheal Coates
+z11243 =  =  = Opuszczona kopalnia - Kornwalia  = 656086.PCD=The National Trust's Levant Mine
+z11244 =  =  = Prince Albert Bridge - Wielka Brytania = 656097.PCD=Brunel's 1859 Prince Albert bridge Saltash
+z11250 =  =  = Angielski krajobraz, Yorkshire = 374021.PCD=Road near Park Gill Beck, Yorkshire Dales
+z11253 =  =  = Miasto Richmond - Wielka Brytania = 374044.PCD=Richmond's steep and cobbled streets
+z11255 =  =  = Most kolejowy nad rzek¹ Tamer - Wielka Brytania = 374058.PCD=The Railway Viaduct crossing the River Tamer at Calstock
+z11256 =  =  = Harewood House - Wielka Brytania = 374078.PCD=Harewood House near Leeds, Yorkshire
+z11259 =  =  = Przystañ jachtów w St. Helier Harbor - Wielka Brytania = 286013.PCD=St. Helier Harbor
+z11275 =  =  = Tower Bridge, Londyn - Wielka Brytania = 368003.PCD=Tower Bridge
+z11281 =  =  = Orkiestra Królewska - Wielka Brytania = 368064.PCD=The Royal Band 
+z11282 =  =  = Luksusowy statek pasa¿erski przep³ywa pod Tower Bridge - Londyn = 368066.PCD=Luxury liner glides under Tower of London
+z11283 =  =  = Autobus piêtrowy - Wielka Brytania = 368068.PCD=Double-decker sightseeing bus
+z11276 =  =  = Tower Bridge - Londyn = 368004.PCD=Tower Bridge
+z11215 =  =  = Gracz w polo w Richmond Park - Wielka Brytania = 509028.PCD=Polo player in Richmond Park
+z11285 =  =  = Zegar s³oneczny na tle Tower Bridge - Londyn = 368071.PCD=Sundial by London Bridge
+z11286 =  =  = Albert Bridge - Londyn = 368079.PCD=Albert Bridge, London
+z11129 =  =  = Wodospad Monsal Dale - Wielka Brytania = 490083.PCD=Monsal Dale Water Cascades, Peak District, Derbyshire, England
+z11132 =  =  = Las Sherwood - Wielka Brytania = 482060.PCD=Sherwood Forest, England
+z11171 =  =  = Tower Bridge noc¹ - Londyn = 625036.PCD=Tower Bridge at night, London
+z11225 =  =  = Tradycyjna osada rybacka, Staithes Harbor - Wielka Brytania = 509060.PCD=Staithes Harbor, North Yorkshire
+z11291 =  =  = Tower - Londyn= 368087.PCD=Tower of London
+z11290 =  =  = Trafalgar Square - Londyn = 368086.PCD=Trafalgar Square
+z11167 =  =  = Krajobraz wiejski, Yorkshire - Wielka Brytania = 625019.PCD=Wharfe Dale gateway, Yorkshire
+z11277 =  =  = Orkiestra Królewska - Wielka Brytania = 
+

@@ -1,0 +1,1198 @@
+<style type="text/css">
+#kohana_error { background: #ddd; font-size: 1em; font-family:sans-serif; text-align: left; color: #111; }
+#kohana_error h1,
+#kohana_error h2 { margin: 0; padding: 1em; font-size: 1em; font-weight: normal; background: #911; color: #fff; }
+	#kohana_error h1 a,
+	#kohana_error h2 a { color: #fff; }
+#kohana_error h2 { background: #222; }
+#kohana_error h3 { margin: 0; padding: 0.4em 0 0; font-size: 1em; font-weight: normal; }
+#kohana_error p { margin: 0; padding: 0.2em 0; }
+#kohana_error a { color: #1b323b; }
+#kohana_error pre { overflow: auto; white-space: pre-wrap; }
+#kohana_error table { width: 100%; display: block; margin: 0 0 0.4em; padding: 0; border-collapse: collapse; background: #fff; }
+	#kohana_error table td { border: solid 1px #ddd; text-align: left; vertical-align: top; padding: 0.4em; }
+#kohana_error div.content { padding: 0.4em 1em 1em; overflow: hidden; }
+#kohana_error pre.source { margin: 0 0 1em; padding: 0.4em; background: #fff; border: dotted 1px #b7c680; line-height: 1.2em; }
+	#kohana_error pre.source span.line { display: block; }
+	#kohana_error pre.source span.highlight { background: #f0eb96; }
+		#kohana_error pre.source span.line span.number { color: #666; }
+#kohana_error ol.trace { display: block; margin: 0 0 0 2em; padding: 0; list-style: decimal; }
+	#kohana_error ol.trace li { margin: 0; padding: 0; }
+.js .collapsed { display: none; }
+</style>
+<script type="text/javascript">
+document.documentElement.className = document.documentElement.className + ' js';
+function koggle(elem)
+{
+	elem = document.getElementById(elem);
+
+	if (elem.style && elem.style['display'])
+		// Only works with the "style" attr
+		var disp = elem.style['display'];
+	else if (elem.currentStyle)
+		// For MSIE, naturally
+		var disp = elem.currentStyle['display'];
+	else if (window.getComputedStyle)
+		// For most other browsers
+		var disp = document.defaultView.getComputedStyle(elem, null).getPropertyValue('display');
+
+	// Toggle the state of the "display" style
+	elem.style.display = disp == 'block' ? 'none' : 'block';
+	return false;
+}
+</script>
+<div id="kohana_error">
+	<h1><span class="type">ErrorException [ Warning ]:</span> <span class="message">PDO::__construct(): MySQL server has gone away</span></h1>
+	<div id="error5c058b4212c62" class="content">
+		<p><span class="file">MODPATH/database/classes/kohana/database/pdo.php [ 55 ]</span></p>
+		<pre class="source"><code><span class="line"><span class="number">50</span> 		}
+</span><span class="line"><span class="number">51</span> 
+</span><span class="line"><span class="number">52</span> 		try
+</span><span class="line"><span class="number">53</span> 		{
+</span><span class="line"><span class="number">54</span> 			// Create a new PDO connection
+</span><span class="line highlight"><span class="number">55</span> 			$this-&gt;_connection = new PDO($dsn, $username, $password, $attrs);
+</span><span class="line"><span class="number">56</span> 		}
+</span><span class="line"><span class="number">57</span> 		catch (PDOException $e)
+</span><span class="line"><span class="number">58</span> 		{
+</span><span class="line"><span class="number">59</span> 			throw new Database_Exception(':error',
+</span><span class="line"><span class="number">60</span> 				array(':error' =&gt; $e-&gt;getMessage()),
+</span></code></pre>		<ol class="trace">
+					<li>
+				<p>
+					<span class="file">
+													{PHP internal call}
+											</span>
+					&raquo;
+					Kohana_Core::error_handler(<a href="#error5c058b4212c62args0" onclick="return koggle('error5c058b4212c62args0')">arguments</a>)
+				</p>
+								<div id="error5c058b4212c62args0" class="collapsed">
+					<table cellspacing="0">
+											<tr>
+							<td><code>0</code></td>
+							<td><pre><small>integer</small> 2</pre></td>
+						</tr>
+											<tr>
+							<td><code>1</code></td>
+							<td><pre><small>string</small><span>(46)</span> "PDO::__construct(): MySQL server has gone away"</pre></td>
+						</tr>
+											<tr>
+							<td><code>2</code></td>
+							<td><pre><small>string</small><span>(56)</span> "/kohana/modules/database/classes/kohana/database/pdo.php"</pre></td>
+						</tr>
+											<tr>
+							<td><code>3</code></td>
+							<td><pre><small>integer</small> 55</pre></td>
+						</tr>
+											<tr>
+							<td><code>4</code></td>
+							<td><pre><small>array</small><span>(7)</span> <span>(
+    "hostname" => <small>string</small><span>(9)</span> "localhost"
+    "database" => <small>string</small><span>(6)</span> "kohana"
+    "username" => <small>string</small><span>(10)</span> "npppm_user"
+    "password" => <small>string</small><span>(5)</span> "npppm"
+    "persistent" => <small>bool</small> TRUE
+    "dsn" => <small>string</small><span>(29)</span> "mysql:host=mysql;dbname=npppm"
+    "attrs" => <small>array</small><span>(2)</span> <span>(
+        3 => <small>integer</small> 2
+        12 => <small>bool</small> TRUE
+    )</span>
+)</span></pre></td>
+						</tr>
+										</table>
+				</div>
+											</li>
+								<li>
+				<p>
+					<span class="file">
+													<a href="#error5c058b4212c62source1" onclick="return koggle('error5c058b4212c62source1')">MODPATH/database/classes/kohana/database/pdo.php [ 55 ]</a>
+											</span>
+					&raquo;
+					PDO->__construct(<a href="#error5c058b4212c62args1" onclick="return koggle('error5c058b4212c62args1')">arguments</a>)
+				</p>
+								<div id="error5c058b4212c62args1" class="collapsed">
+					<table cellspacing="0">
+											<tr>
+							<td><code>0</code></td>
+							<td><pre><small>string</small><span>(29)</span> "mysql:host=mysql;dbname=npppm"</pre></td>
+						</tr>
+											<tr>
+							<td><code>1</code></td>
+							<td><pre><small>string</small><span>(10)</span> "npppm_user"</pre></td>
+						</tr>
+											<tr>
+							<td><code>2</code></td>
+							<td><pre><small>string</small><span>(5)</span> "npppm"</pre></td>
+						</tr>
+											<tr>
+							<td><code>3</code></td>
+							<td><pre><small>array</small><span>(2)</span> <span>(
+    3 => <small>integer</small> 2
+    12 => <small>bool</small> TRUE
+)</span></pre></td>
+						</tr>
+										</table>
+				</div>
+													<pre id="error5c058b4212c62source1" class="source collapsed"><code><pre class="source"><code><span class="line"><span class="number">50</span> 		}
+</span><span class="line"><span class="number">51</span> 
+</span><span class="line"><span class="number">52</span> 		try
+</span><span class="line"><span class="number">53</span> 		{
+</span><span class="line"><span class="number">54</span> 			// Create a new PDO connection
+</span><span class="line highlight"><span class="number">55</span> 			$this-&gt;_connection = new PDO($dsn, $username, $password, $attrs);
+</span><span class="line"><span class="number">56</span> 		}
+</span><span class="line"><span class="number">57</span> 		catch (PDOException $e)
+</span><span class="line"><span class="number">58</span> 		{
+</span><span class="line"><span class="number">59</span> 			throw new Database_Exception(':error',
+</span><span class="line"><span class="number">60</span> 				array(':error' =&gt; $e-&gt;getMessage()),
+</span></code></pre></code></pre>
+							</li>
+								<li>
+				<p>
+					<span class="file">
+													<a href="#error5c058b4212c62source2" onclick="return koggle('error5c058b4212c62source2')">MODPATH/database/classes/kohana/database/pdo.php [ 136 ]</a>
+											</span>
+					&raquo;
+					Kohana_Database_PDO->connect()
+				</p>
+													<pre id="error5c058b4212c62source2" class="source collapsed"><code><pre class="source"><code><span class="line"><span class="number">131</span> 	}
+</span><span class="line"><span class="number">132</span> 
+</span><span class="line"><span class="number">133</span> 	public function query($type, $sql, $as_object = FALSE, array $params = NULL)
+</span><span class="line"><span class="number">134</span> 	{
+</span><span class="line"><span class="number">135</span> 		// Make sure the database is connected
+</span><span class="line highlight"><span class="number">136</span> 		$this-&gt;_connection or $this-&gt;connect();
+</span><span class="line"><span class="number">137</span> 
+</span><span class="line"><span class="number">138</span> 		if ( ! empty($this-&gt;_config['profiling']))
+</span><span class="line"><span class="number">139</span> 		{
+</span><span class="line"><span class="number">140</span> 			// Benchmark this query for the current instance
+</span><span class="line"><span class="number">141</span> 			$benchmark = Profiler::start("Database ({$this-&gt;_instance})", $sql);
+</span></code></pre></code></pre>
+							</li>
+								<li>
+				<p>
+					<span class="file">
+													<a href="#error5c058b4212c62source3" onclick="return koggle('error5c058b4212c62source3')">MODPATH/database/classes/kohana/database/pdo.php [ 298 ]</a>
+											</span>
+					&raquo;
+					Kohana_Database_PDO->query(<a href="#error5c058b4212c62args3" onclick="return koggle('error5c058b4212c62args3')">arguments</a>)
+				</p>
+								<div id="error5c058b4212c62args3" class="collapsed">
+					<table cellspacing="0">
+											<tr>
+							<td><code>0</code></td>
+							<td><pre><small>integer</small> 1</pre></td>
+						</tr>
+											<tr>
+							<td><code>1</code></td>
+							<td><pre><small>string</small><span>(30)</span> "SHOW FULL COLUMNS FROM plugins"</pre></td>
+						</tr>
+											<tr>
+							<td><code>2</code></td>
+							<td><pre><small>bool</small> FALSE</pre></td>
+						</tr>
+										</table>
+				</div>
+													<pre id="error5c058b4212c62source3" class="source collapsed"><code><pre class="source"><code><span class="line"><span class="number">293</span> 			$result = $this-&gt;query(Database::SELECT, 'SHOW FULL COLUMNS FROM '.$table.' LIKE '.$this-&gt;quote($like), FALSE);
+</span><span class="line"><span class="number">294</span> 		}
+</span><span class="line"><span class="number">295</span> 		else
+</span><span class="line"><span class="number">296</span> 		{
+</span><span class="line"><span class="number">297</span> 			// Find all column names
+</span><span class="line highlight"><span class="number">298</span> 			$result = $this-&gt;query(Database::SELECT, 'SHOW FULL COLUMNS FROM '.$table, FALSE);
+</span><span class="line"><span class="number">299</span> 		}
+</span><span class="line"><span class="number">300</span> 		$count = 0;
+</span><span class="line"><span class="number">301</span> 		$columns = array();
+</span><span class="line"><span class="number">302</span> 		foreach ($result as $row)
+</span><span class="line"><span class="number">303</span> 		{
+</span></code></pre></code></pre>
+							</li>
+								<li>
+				<p>
+					<span class="file">
+													<a href="#error5c058b4212c62source4" onclick="return koggle('error5c058b4212c62source4')">MODPATH/orm/classes/kohana/orm.php [ 1504 ]</a>
+											</span>
+					&raquo;
+					Kohana_Database_PDO->list_columns(<a href="#error5c058b4212c62args4" onclick="return koggle('error5c058b4212c62args4')">arguments</a>)
+				</p>
+								<div id="error5c058b4212c62args4" class="collapsed">
+					<table cellspacing="0">
+											<tr>
+							<td><code>0</code></td>
+							<td><pre><small>string</small><span>(7)</span> "plugins"</pre></td>
+						</tr>
+										</table>
+				</div>
+													<pre id="error5c058b4212c62source4" class="source collapsed"><code><pre class="source"><code><span class="line"><span class="number">1499</span> 	 * @return array
+</span><span class="line"><span class="number">1500</span> 	 */
+</span><span class="line"><span class="number">1501</span> 	public function list_columns()
+</span><span class="line"><span class="number">1502</span> 	{
+</span><span class="line"><span class="number">1503</span> 		// Proxy to database
+</span><span class="line highlight"><span class="number">1504</span> 		return $this-&gt;_db-&gt;list_columns($this-&gt;_table_name);
+</span><span class="line"><span class="number">1505</span> 	}
+</span><span class="line"><span class="number">1506</span> 
+</span><span class="line"><span class="number">1507</span> 	/**
+</span><span class="line"><span class="number">1508</span> 	 * Returns an ORM model for the given one-one related alias
+</span><span class="line"><span class="number">1509</span> 	 *
+</span></code></pre></code></pre>
+							</li>
+								<li>
+				<p>
+					<span class="file">
+													<a href="#error5c058b4212c62source5" onclick="return koggle('error5c058b4212c62source5')">MODPATH/orm/classes/kohana/orm.php [ 392 ]</a>
+											</span>
+					&raquo;
+					Kohana_ORM->list_columns(<a href="#error5c058b4212c62args5" onclick="return koggle('error5c058b4212c62args5')">arguments</a>)
+				</p>
+								<div id="error5c058b4212c62args5" class="collapsed">
+					<table cellspacing="0">
+											<tr>
+							<td><code>0</code></td>
+							<td><pre><small>bool</small> TRUE</pre></td>
+						</tr>
+										</table>
+				</div>
+													<pre id="error5c058b4212c62source5" class="source collapsed"><code><pre class="source"><code><span class="line"><span class="number">387</span> 				$this-&gt;_table_columns = ORM::$_column_cache[$this-&gt;_object_name];
+</span><span class="line"><span class="number">388</span> 			}
+</span><span class="line"><span class="number">389</span> 			else
+</span><span class="line"><span class="number">390</span> 			{
+</span><span class="line"><span class="number">391</span> 				// Grab column information from database
+</span><span class="line highlight"><span class="number">392</span> 				$this-&gt;_table_columns = $this-&gt;list_columns(TRUE);
+</span><span class="line"><span class="number">393</span> 
+</span><span class="line"><span class="number">394</span> 				// Load column cache
+</span><span class="line"><span class="number">395</span> 				ORM::$_column_cache[$this-&gt;_object_name] = $this-&gt;_table_columns;
+</span><span class="line"><span class="number">396</span> 			}
+</span><span class="line"><span class="number">397</span> 		}
+</span></code></pre></code></pre>
+							</li>
+								<li>
+				<p>
+					<span class="file">
+													<a href="#error5c058b4212c62source6" onclick="return koggle('error5c058b4212c62source6')">MODPATH/orm/classes/kohana/orm.php [ 337 ]</a>
+											</span>
+					&raquo;
+					Kohana_ORM->reload_columns()
+				</p>
+													<pre id="error5c058b4212c62source6" class="source collapsed"><code><pre class="source"><code><span class="line"><span class="number">332</span> 
+</span><span class="line"><span class="number">333</span> 			$this-&gt;_has_many[$alias] = array_merge($defaults, $details);
+</span><span class="line"><span class="number">334</span> 		}
+</span><span class="line"><span class="number">335</span> 
+</span><span class="line"><span class="number">336</span> 		// Load column information
+</span><span class="line highlight"><span class="number">337</span> 		$this-&gt;reload_columns();
+</span><span class="line"><span class="number">338</span> 
+</span><span class="line"><span class="number">339</span> 		// Clear initial model state
+</span><span class="line"><span class="number">340</span> 		$this-&gt;clear();
+</span><span class="line"><span class="number">341</span> 	}
+</span><span class="line"><span class="number">342</span> 
+</span></code></pre></code></pre>
+							</li>
+								<li>
+				<p>
+					<span class="file">
+													<a href="#error5c058b4212c62source7" onclick="return koggle('error5c058b4212c62source7')">MODPATH/orm/classes/kohana/orm.php [ 246 ]</a>
+											</span>
+					&raquo;
+					Kohana_ORM->_initialize()
+				</p>
+													<pre id="error5c058b4212c62source7" class="source collapsed"><code><pre class="source"><code><span class="line"><span class="number">241</span> 	 * @param   mixed $id Parameter for find or object to load
+</span><span class="line"><span class="number">242</span> 	 * @return  void
+</span><span class="line"><span class="number">243</span> 	 */
+</span><span class="line"><span class="number">244</span> 	public function __construct($id = NULL)
+</span><span class="line"><span class="number">245</span> 	{
+</span><span class="line highlight"><span class="number">246</span> 		$this-&gt;_initialize();
+</span><span class="line"><span class="number">247</span> 
+</span><span class="line"><span class="number">248</span> 		if ($id !== NULL)
+</span><span class="line"><span class="number">249</span> 		{
+</span><span class="line"><span class="number">250</span> 			if (is_array($id))
+</span><span class="line"><span class="number">251</span> 			{
+</span></code></pre></code></pre>
+							</li>
+								<li>
+				<p>
+					<span class="file">
+													<a href="#error5c058b4212c62source8" onclick="return koggle('error5c058b4212c62source8')">MODPATH/orm/classes/kohana/orm.php [ 37 ]</a>
+											</span>
+					&raquo;
+					Kohana_ORM->__construct(<a href="#error5c058b4212c62args8" onclick="return koggle('error5c058b4212c62args8')">arguments</a>)
+				</p>
+								<div id="error5c058b4212c62args8" class="collapsed">
+					<table cellspacing="0">
+											<tr>
+							<td><code>0</code></td>
+							<td><pre><small>NULL</small></pre></td>
+						</tr>
+										</table>
+				</div>
+													<pre id="error5c058b4212c62source8" class="source collapsed"><code><pre class="source"><code><span class="line"><span class="number">32</span> 	public static function factory($model, $id = NULL)
+</span><span class="line"><span class="number">33</span> 	{
+</span><span class="line"><span class="number">34</span> 		// Set class name
+</span><span class="line"><span class="number">35</span> 		$model = 'Model_'.ucfirst($model);
+</span><span class="line"><span class="number">36</span> 
+</span><span class="line highlight"><span class="number">37</span> 		return new $model($id);
+</span><span class="line"><span class="number">38</span> 	}
+</span><span class="line"><span class="number">39</span> 
+</span><span class="line"><span class="number">40</span> 	/**
+</span><span class="line"><span class="number">41</span> 	 * "Has one" relationships
+</span><span class="line"><span class="number">42</span> 	 * @var array
+</span></code></pre></code></pre>
+							</li>
+								<li>
+				<p>
+					<span class="file">
+													<a href="#error5c058b4212c62source9" onclick="return koggle('error5c058b4212c62source9')">APPPATH/classes/controller/plugins.php [ 864 ]</a>
+											</span>
+					&raquo;
+					Kohana_ORM::factory(<a href="#error5c058b4212c62args9" onclick="return koggle('error5c058b4212c62args9')">arguments</a>)
+				</p>
+								<div id="error5c058b4212c62args9" class="collapsed">
+					<table cellspacing="0">
+											<tr>
+							<td><code>0</code></td>
+							<td><pre><small>string</small><span>(6)</span> "Plugin"</pre></td>
+						</tr>
+										</table>
+				</div>
+													<pre id="error5c058b4212c62source9" class="source collapsed"><code><pre class="source"><code><span class="line"><span class="number">859</span> 		
+</span><span class="line"><span class="number">860</span> 		unset($prependX); // Free memory
+</span><span class="line"><span class="number">861</span> 		
+</span><span class="line"><span class="number">862</span> 		// Generate the XML from the database
+</span><span class="line"><span class="number">863</span> 		
+</span><span class="line highlight"><span class="number">864</span> 		$plugins = ORM::factory('Plugin')-&gt;find_all();
+</span><span class="line"><span class="number">865</span> 		
+</span><span class="line"><span class="number">866</span> 		foreach($plugins as $plugin){
+</span><span class="line"><span class="number">867</span> 			$pluginX = $xml-&gt;addChild('plugin');
+</span><span class="line"><span class="number">868</span> 			// Attributes don't seem to need HTML::chars
+</span><span class="line"><span class="number">869</span> 			$pluginX['name'] = $plugin-&gt;name;
+</span></code></pre></code></pre>
+							</li>
+								<li>
+				<p>
+					<span class="file">
+													{PHP internal call}
+											</span>
+					&raquo;
+					Controller_Plugins->action_generate_xml()
+				</p>
+											</li>
+								<li>
+				<p>
+					<span class="file">
+													<a href="#error5c058b4212c62source11" onclick="return koggle('error5c058b4212c62source11')">SYSPATH/classes/kohana/request/client/internal.php [ 118 ]</a>
+											</span>
+					&raquo;
+					ReflectionMethod->invoke(<a href="#error5c058b4212c62args11" onclick="return koggle('error5c058b4212c62args11')">arguments</a>)
+				</p>
+								<div id="error5c058b4212c62args11" class="collapsed">
+					<table cellspacing="0">
+											<tr>
+							<td><code>0</code></td>
+							<td><pre><small>object</small> <span>Controller_Plugins(8)</span> <code>{
+    <small>protected</small> body => <small>NULL</small>
+    <small>protected</small> render => <small>bool</small> TRUE
+    <small>protected</small> logged_in => <small>bool</small> FALSE
+    <small>protected</small> admin => <small>bool</small> FALSE
+    <small>protected</small> auth => <small>object</small> <span>Auth_ORM(2)</span> <code>{
+        <small>protected</small> _session => <small>object</small> <span>Session_Native(5)</span> <code>{
+            <small>protected</small> _name => <small>string</small><span>(7)</span> "session"
+            <small>protected</small> _lifetime => <small>integer</small> 0
+            <small>protected</small> _encrypted => <small>bool</small> FALSE
+            <small>protected</small> _data => <small>array</small><span>(0)</span> 
+            <small>protected</small> _destroyed => <small>bool</small> FALSE
+        }</code>
+        <small>protected</small> _config => <small>object</small> <span>Config_Group(7)</span> <code>{
+            <small>public</small> driver => <small>string</small><span>(3)</span> "orm"
+            <small>public</small> hash_method => <small>string</small><span>(6)</span> "sha256"
+            <small>public</small> hash_key => <small>string</small><span>(7)</span> "Pi8NLuc"
+            <small>public</small> lifetime => <small>integer</small> 1209600
+            <small>public</small> session_type => <small>string</small><span>(6)</span> "native"
+            <small>public</small> session_key => <small>string</small><span>(9)</span> "auth_user"
+            <small>public</small> users => <small>array</small><span>(0)</span> 
+        }</code>
+    }</code>
+    <small>protected</small> user => <small>bool</small> FALSE
+    <small>public</small> request => <small>object</small> <span>Request(21)</span> <code>{
+        <small>protected</small> _requested_with => <small>NULL</small>
+        <small>protected</small> _method => <small>string</small><span>(3)</span> "GET"
+        <small>protected</small> _protocol => <small>string</small><span>(8)</span> "HTTP/1.0"
+        <small>protected</small> _secure => <small>bool</small> FALSE
+        <small>protected</small> _referrer => <small>NULL</small>
+        <small>protected</small> _route => <small>object</small> <span>Route(5)</span> <code>{
+            <small>protected</small> _callback => <small>NULL</small>
+            <small>protected</small> _uri => <small>string</small><span>(32)</span> "(&lt;controller&gt;(/&lt;action&gt;(/&lt;id&gt;)))"
+            <small>protected</small> _regex => <small>array</small><span>(0)</span> 
+            <small>protected</small> _defaults => <small>array</small><span>(2)</span> <span>(
+                "controller" => <small>string</small><span>(7)</span> "welcome"
+                "action" => <small>string</small><span>(5)</span> "index"
+            )</span>
+            <small>protected</small> _route_regex => <small>string</small><span>(95)</span> "#^(?:(?P&lt;controller&gt;[^/.,;?\n]++)(?:/(?P&lt;action&gt;[^/.,;?\n]++)(?:/(?P&lt;id&gt;[^/.,;?\n]++))?)?)?$#uD"
+        }</code>
+        <small>protected</small> _routes => <small>NULL</small>
+        <small>protected</small> _response => <small>object</small> <span>Response(5)</span> <code>{
+            <small>protected</small> _status => <small>integer</small> 200
+            <small>protected</small> _header => <small>object</small> <span>HTTP_Header(0)</span> <code>{
+            }</code>
+            <small>protected</small> _body => <small>string</small><span>(0)</span> ""
+            <small>protected</small> _cookies => <small>array</small><span>(0)</span> 
+            <small>protected</small> _protocol => <small>string</small><span>(8)</span> "HTTP/1.0"
+        }</code>
+        <small>protected</small> _header => <small>object</small> <span>HTTP_Header(0)</span> <code>{
+        }</code>
+        <small>protected</small> _body => <small>NULL</small>
+        <small>protected</small> _directory => <small>string</small><span>(0)</span> ""
+        <small>protected</small> _controller => <small>string</small><span>(7)</span> "plugins"
+        <small>protected</small> _action => <small>string</small><span>(12)</span> "generate_xml"
+        <small>protected</small> _uri => <small>string</small><span>(20)</span> "plugins/generate_xml"
+        <small>protected</small> _external => <small>bool</small> FALSE
+        <small>protected</small> _params => <small>array</small><span>(0)</span> 
+        <small>protected</small> _get => <small>array</small><span>(1)</span> <span>(
+            "download" => <small>string</small><span>(1)</span> "1"
+        )</span>
+        <small>protected</small> _post => <small>array</small><span>(0)</span> 
+        <small>protected</small> _cookies => <small>array</small><span>(0)</span> 
+        <small>protected</small> _client => <small>object</small> <span>Request_Client_Internal(2)</span> <code>{
+            <small>protected</small> _previous_environment => <small>NULL</small>
+            <small>protected</small> _cache => <small>NULL</small>
+        }</code>
+        <small>public</small> _injected_routes => <small>array</small><span>(0)</span> 
+    }</code>
+    <small>public</small> response => <small>object</small> <span>Response(5)</span> <code>{
+        <small>protected</small> _status => <small>integer</small> 200
+        <small>protected</small> _header => <small>object</small> <span>HTTP_Header(0)</span> <code>{
+        }</code>
+        <small>protected</small> _body => <small>string</small><span>(0)</span> ""
+        <small>protected</small> _cookies => <small>array</small><span>(0)</span> 
+        <small>protected</small> _protocol => <small>string</small><span>(8)</span> "HTTP/1.0"
+    }</code>
+}</code></pre></td>
+						</tr>
+										</table>
+				</div>
+													<pre id="error5c058b4212c62source11" class="source collapsed"><code><pre class="source"><code><span class="line"><span class="number">113</span> 				throw new HTTP_Exception_404('The requested URL :uri was not found on this server.',
+</span><span class="line"><span class="number">114</span> 													array(':uri' =&gt; $request-&gt;uri()));
+</span><span class="line"><span class="number">115</span> 			}
+</span><span class="line"><span class="number">116</span> 
+</span><span class="line"><span class="number">117</span> 			$method = $class-&gt;getMethod('action_'.$action);
+</span><span class="line highlight"><span class="number">118</span> 			$method-&gt;invoke($controller);
+</span><span class="line"><span class="number">119</span> 
+</span><span class="line"><span class="number">120</span> 			// Execute the "after action" method
+</span><span class="line"><span class="number">121</span> 			$class-&gt;getMethod('after')-&gt;invoke($controller);
+</span><span class="line"><span class="number">122</span> 		}
+</span><span class="line"><span class="number">123</span> 		catch (Exception $e)
+</span></code></pre></code></pre>
+							</li>
+								<li>
+				<p>
+					<span class="file">
+													<a href="#error5c058b4212c62source12" onclick="return koggle('error5c058b4212c62source12')">SYSPATH/classes/kohana/request/client.php [ 64 ]</a>
+											</span>
+					&raquo;
+					Kohana_Request_Client_Internal->execute_request(<a href="#error5c058b4212c62args12" onclick="return koggle('error5c058b4212c62args12')">arguments</a>)
+				</p>
+								<div id="error5c058b4212c62args12" class="collapsed">
+					<table cellspacing="0">
+											<tr>
+							<td><code>0</code></td>
+							<td><pre><small>object</small> <span>Request(21)</span> <code>{
+    <small>protected</small> _requested_with => <small>NULL</small>
+    <small>protected</small> _method => <small>string</small><span>(3)</span> "GET"
+    <small>protected</small> _protocol => <small>string</small><span>(8)</span> "HTTP/1.0"
+    <small>protected</small> _secure => <small>bool</small> FALSE
+    <small>protected</small> _referrer => <small>NULL</small>
+    <small>protected</small> _route => <small>object</small> <span>Route(5)</span> <code>{
+        <small>protected</small> _callback => <small>NULL</small>
+        <small>protected</small> _uri => <small>string</small><span>(32)</span> "(&lt;controller&gt;(/&lt;action&gt;(/&lt;id&gt;)))"
+        <small>protected</small> _regex => <small>array</small><span>(0)</span> 
+        <small>protected</small> _defaults => <small>array</small><span>(2)</span> <span>(
+            "controller" => <small>string</small><span>(7)</span> "welcome"
+            "action" => <small>string</small><span>(5)</span> "index"
+        )</span>
+        <small>protected</small> _route_regex => <small>string</small><span>(95)</span> "#^(?:(?P&lt;controller&gt;[^/.,;?\n]++)(?:/(?P&lt;action&gt;[^/.,;?\n]++)(?:/(?P&lt;id&gt;[^/.,;?\n]++))?)?)?$#uD"
+    }</code>
+    <small>protected</small> _routes => <small>NULL</small>
+    <small>protected</small> _response => <small>object</small> <span>Response(5)</span> <code>{
+        <small>protected</small> _status => <small>integer</small> 200
+        <small>protected</small> _header => <small>object</small> <span>HTTP_Header(0)</span> <code>{
+        }</code>
+        <small>protected</small> _body => <small>string</small><span>(0)</span> ""
+        <small>protected</small> _cookies => <small>array</small><span>(0)</span> 
+        <small>protected</small> _protocol => <small>string</small><span>(8)</span> "HTTP/1.0"
+    }</code>
+    <small>protected</small> _header => <small>object</small> <span>HTTP_Header(0)</span> <code>{
+    }</code>
+    <small>protected</small> _body => <small>NULL</small>
+    <small>protected</small> _directory => <small>string</small><span>(0)</span> ""
+    <small>protected</small> _controller => <small>string</small><span>(7)</span> "plugins"
+    <small>protected</small> _action => <small>string</small><span>(12)</span> "generate_xml"
+    <small>protected</small> _uri => <small>string</small><span>(20)</span> "plugins/generate_xml"
+    <small>protected</small> _external => <small>bool</small> FALSE
+    <small>protected</small> _params => <small>array</small><span>(0)</span> 
+    <small>protected</small> _get => <small>array</small><span>(1)</span> <span>(
+        "download" => <small>string</small><span>(1)</span> "1"
+    )</span>
+    <small>protected</small> _post => <small>array</small><span>(0)</span> 
+    <small>protected</small> _cookies => <small>array</small><span>(0)</span> 
+    <small>protected</small> _client => <small>object</small> <span>Request_Client_Internal(2)</span> <code>{
+        <small>protected</small> _previous_environment => <small>NULL</small>
+        <small>protected</small> _cache => <small>NULL</small>
+    }</code>
+    <small>public</small> _injected_routes => <small>array</small><span>(0)</span> 
+}</code></pre></td>
+						</tr>
+										</table>
+				</div>
+													<pre id="error5c058b4212c62source12" class="source collapsed"><code><pre class="source"><code><span class="line"><span class="number">59</span> 	public function execute(Request $request)
+</span><span class="line"><span class="number">60</span> 	{
+</span><span class="line"><span class="number">61</span> 		if ($this-&gt;_cache instanceof HTTP_Cache)
+</span><span class="line"><span class="number">62</span> 			return $this-&gt;_cache-&gt;execute($this, $request);
+</span><span class="line"><span class="number">63</span> 
+</span><span class="line highlight"><span class="number">64</span> 		return $this-&gt;execute_request($request);
+</span><span class="line"><span class="number">65</span> 	}
+</span><span class="line"><span class="number">66</span> 
+</span><span class="line"><span class="number">67</span> 	/**
+</span><span class="line"><span class="number">68</span> 	 * Processes the request passed to it and returns the response from
+</span><span class="line"><span class="number">69</span> 	 * the URI resource identified.
+</span></code></pre></code></pre>
+							</li>
+								<li>
+				<p>
+					<span class="file">
+													<a href="#error5c058b4212c62source13" onclick="return koggle('error5c058b4212c62source13')">SYSPATH/classes/kohana/request.php [ 1138 ]</a>
+											</span>
+					&raquo;
+					Kohana_Request_Client->execute(<a href="#error5c058b4212c62args13" onclick="return koggle('error5c058b4212c62args13')">arguments</a>)
+				</p>
+								<div id="error5c058b4212c62args13" class="collapsed">
+					<table cellspacing="0">
+											<tr>
+							<td><code>0</code></td>
+							<td><pre><small>object</small> <span>Request(21)</span> <code>{
+    <small>protected</small> _requested_with => <small>NULL</small>
+    <small>protected</small> _method => <small>string</small><span>(3)</span> "GET"
+    <small>protected</small> _protocol => <small>string</small><span>(8)</span> "HTTP/1.0"
+    <small>protected</small> _secure => <small>bool</small> FALSE
+    <small>protected</small> _referrer => <small>NULL</small>
+    <small>protected</small> _route => <small>object</small> <span>Route(5)</span> <code>{
+        <small>protected</small> _callback => <small>NULL</small>
+        <small>protected</small> _uri => <small>string</small><span>(32)</span> "(&lt;controller&gt;(/&lt;action&gt;(/&lt;id&gt;)))"
+        <small>protected</small> _regex => <small>array</small><span>(0)</span> 
+        <small>protected</small> _defaults => <small>array</small><span>(2)</span> <span>(
+            "controller" => <small>string</small><span>(7)</span> "welcome"
+            "action" => <small>string</small><span>(5)</span> "index"
+        )</span>
+        <small>protected</small> _route_regex => <small>string</small><span>(95)</span> "#^(?:(?P&lt;controller&gt;[^/.,;?\n]++)(?:/(?P&lt;action&gt;[^/.,;?\n]++)(?:/(?P&lt;id&gt;[^/.,;?\n]++))?)?)?$#uD"
+    }</code>
+    <small>protected</small> _routes => <small>NULL</small>
+    <small>protected</small> _response => <small>object</small> <span>Response(5)</span> <code>{
+        <small>protected</small> _status => <small>integer</small> 200
+        <small>protected</small> _header => <small>object</small> <span>HTTP_Header(0)</span> <code>{
+        }</code>
+        <small>protected</small> _body => <small>string</small><span>(0)</span> ""
+        <small>protected</small> _cookies => <small>array</small><span>(0)</span> 
+        <small>protected</small> _protocol => <small>string</small><span>(8)</span> "HTTP/1.0"
+    }</code>
+    <small>protected</small> _header => <small>object</small> <span>HTTP_Header(0)</span> <code>{
+    }</code>
+    <small>protected</small> _body => <small>NULL</small>
+    <small>protected</small> _directory => <small>string</small><span>(0)</span> ""
+    <small>protected</small> _controller => <small>string</small><span>(7)</span> "plugins"
+    <small>protected</small> _action => <small>string</small><span>(12)</span> "generate_xml"
+    <small>protected</small> _uri => <small>string</small><span>(20)</span> "plugins/generate_xml"
+    <small>protected</small> _external => <small>bool</small> FALSE
+    <small>protected</small> _params => <small>array</small><span>(0)</span> 
+    <small>protected</small> _get => <small>array</small><span>(1)</span> <span>(
+        "download" => <small>string</small><span>(1)</span> "1"
+    )</span>
+    <small>protected</small> _post => <small>array</small><span>(0)</span> 
+    <small>protected</small> _cookies => <small>array</small><span>(0)</span> 
+    <small>protected</small> _client => <small>object</small> <span>Request_Client_Internal(2)</span> <code>{
+        <small>protected</small> _previous_environment => <small>NULL</small>
+        <small>protected</small> _cache => <small>NULL</small>
+    }</code>
+    <small>public</small> _injected_routes => <small>array</small><span>(0)</span> 
+}</code></pre></td>
+						</tr>
+										</table>
+				</div>
+													<pre id="error5c058b4212c62source13" class="source collapsed"><code><pre class="source"><code><span class="line"><span class="number">1133</span> 			throw new Request_Exception('Unable to execute :uri without a Kohana_Request_Client', array(
+</span><span class="line"><span class="number">1134</span> 				':uri' =&gt; $this-&gt;_uri,
+</span><span class="line"><span class="number">1135</span> 			));
+</span><span class="line"><span class="number">1136</span> 		}
+</span><span class="line"><span class="number">1137</span> 
+</span><span class="line highlight"><span class="number">1138</span> 		return $this-&gt;_client-&gt;execute($this);
+</span><span class="line"><span class="number">1139</span> 	}
+</span><span class="line"><span class="number">1140</span> 
+</span><span class="line"><span class="number">1141</span> 	/**
+</span><span class="line"><span class="number">1142</span> 	 * Returns whether this request is the initial request Kohana received.
+</span><span class="line"><span class="number">1143</span> 	 * Can be used to test for sub requests.
+</span></code></pre></code></pre>
+							</li>
+								<li>
+				<p>
+					<span class="file">
+													<a href="#error5c058b4212c62source14" onclick="return koggle('error5c058b4212c62source14')">DOCROOT/index.php [ 104 ]</a>
+											</span>
+					&raquo;
+					Kohana_Request->execute()
+				</p>
+													<pre id="error5c058b4212c62source14" class="source collapsed"><code><pre class="source"><code><span class="line"><span class="number"> 99</span>  * Execute the main request. A source of the URI can be passed, eg: $_SERVER['PATH_INFO'].
+</span><span class="line"><span class="number">100</span>  * If no source is specified, the URI will be automatically detected.
+</span><span class="line"><span class="number">101</span>  */
+</span><span class="line"><span class="number">102</span> try{
+</span><span class="line"><span class="number">103</span> 	echo Request::factory()
+</span><span class="line highlight"><span class="number">104</span> 		-&gt;execute()
+</span><span class="line"><span class="number">105</span> 		-&gt;send_headers()
+</span><span class="line"><span class="number">106</span> 		-&gt;body();
+</span><span class="line"><span class="number">107</span> }catch(ErrorException $e){
+</span><span class="line"><span class="number">108</span> 	echo 'CAUGHT ERROREXCEPTION&lt;br&gt;'.Kohana_Exception::handler($e);
+</span><span class="line"><span class="number">109</span> }
+</span></code></pre></code></pre>
+							</li>
+							</ol>
+	</div>
+	<h2><a href="#error5c058b4212c62environment" onclick="return koggle('error5c058b4212c62environment')">Environment</a></h2>
+	<div id="error5c058b4212c62environment" class="content collapsed">
+				<h3><a href="#error5c058b4212c62environment_included" onclick="return koggle('error5c058b4212c62environment_included')">Included files</a> (88)</h3>
+		<div id="error5c058b4212c62environment_included" class="collapsed">
+			<table cellspacing="0">
+								<tr>
+					<td><code>DOCROOT/index.php</code></td>
+				</tr>
+								<tr>
+					<td><code>APPPATH/bootstrap.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/core.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/i18n.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/i18n.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/exception.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/kohana/exception.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/log.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/log.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/config.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/log/file.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/log/file.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/log/writer.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/log/writer.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/config/file.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/config/file.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/config/file/reader.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/config/reader.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/config/source.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/route.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/route.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/request.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/request.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/http/request.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/http/request.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/http/message.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/http/message.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/http/header.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/http/header.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/arr.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/arr.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/request/client/internal.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/request/client/internal.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/request/client.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/request/client.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/profiler.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/profiler.php</code></td>
+				</tr>
+								<tr>
+					<td><code>APPPATH/classes/controller/plugins.php</code></td>
+				</tr>
+								<tr>
+					<td><code>APPPATH/classes/controller.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/controller.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/response.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/response.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/http/response.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/http/response.php</code></td>
+				</tr>
+								<tr>
+					<td><code>MODPATH/auth/classes/auth.php</code></td>
+				</tr>
+								<tr>
+					<td><code>MODPATH/auth/classes/kohana/auth.php</code></td>
+				</tr>
+								<tr>
+					<td><code>MODPATH/auth/config/auth.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/session.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/session.php</code></td>
+				</tr>
+								<tr>
+					<td><code>APPPATH/config/auth.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/config/group.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/config/group.php</code></td>
+				</tr>
+								<tr>
+					<td><code>MODPATH/orm/classes/auth/orm.php</code></td>
+				</tr>
+								<tr>
+					<td><code>MODPATH/orm/classes/kohana/auth/orm.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/config/session.php</code></td>
+				</tr>
+								<tr>
+					<td><code>MODPATH/database/config/session.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/session/native.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/session/native.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/cookie.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/cookie.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/view.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/view.php</code></td>
+				</tr>
+								<tr>
+					<td><code>APPPATH/classes/simplexml.php</code></td>
+				</tr>
+								<tr>
+					<td><code>MODPATH/orm/classes/orm.php</code></td>
+				</tr>
+								<tr>
+					<td><code>MODPATH/orm/classes/kohana/orm.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/model.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/model.php</code></td>
+				</tr>
+								<tr>
+					<td><code>APPPATH/classes/model/plugin.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/inflector.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/inflector.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/config/inflector.php</code></td>
+				</tr>
+								<tr>
+					<td><code>MODPATH/database/classes/database.php</code></td>
+				</tr>
+								<tr>
+					<td><code>MODPATH/database/classes/kohana/database.php</code></td>
+				</tr>
+								<tr>
+					<td><code>MODPATH/database/config/database.php</code></td>
+				</tr>
+								<tr>
+					<td><code>APPPATH/config/database.php</code></td>
+				</tr>
+								<tr>
+					<td><code>MODPATH/database/classes/database/pdo.php</code></td>
+				</tr>
+								<tr>
+					<td><code>MODPATH/database/classes/kohana/database/pdo.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/debug.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/debug.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/date.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/date.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/views/kohana/error.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/html.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/html.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/i18n/en.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/utf8.php</code></td>
+				</tr>
+								<tr>
+					<td><code>SYSPATH/classes/kohana/utf8.php</code></td>
+				</tr>
+							</table>
+		</div>
+				<h3><a href="#error5c058b4212c62environment_loaded" onclick="return koggle('error5c058b4212c62environment_loaded')">Loaded extensions</a> (36)</h3>
+		<div id="error5c058b4212c62environment_loaded" class="collapsed">
+			<table cellspacing="0">
+								<tr>
+					<td><code>Core</code></td>
+				</tr>
+								<tr>
+					<td><code>date</code></td>
+				</tr>
+								<tr>
+					<td><code>ereg</code></td>
+				</tr>
+								<tr>
+					<td><code>libxml</code></td>
+				</tr>
+								<tr>
+					<td><code>openssl</code></td>
+				</tr>
+								<tr>
+					<td><code>pcre</code></td>
+				</tr>
+								<tr>
+					<td><code>sqlite3</code></td>
+				</tr>
+								<tr>
+					<td><code>zlib</code></td>
+				</tr>
+								<tr>
+					<td><code>ctype</code></td>
+				</tr>
+								<tr>
+					<td><code>curl</code></td>
+				</tr>
+								<tr>
+					<td><code>dom</code></td>
+				</tr>
+								<tr>
+					<td><code>fileinfo</code></td>
+				</tr>
+								<tr>
+					<td><code>filter</code></td>
+				</tr>
+								<tr>
+					<td><code>ftp</code></td>
+				</tr>
+								<tr>
+					<td><code>hash</code></td>
+				</tr>
+								<tr>
+					<td><code>iconv</code></td>
+				</tr>
+								<tr>
+					<td><code>json</code></td>
+				</tr>
+								<tr>
+					<td><code>mbstring</code></td>
+				</tr>
+								<tr>
+					<td><code>SPL</code></td>
+				</tr>
+								<tr>
+					<td><code>PDO</code></td>
+				</tr>
+								<tr>
+					<td><code>session</code></td>
+				</tr>
+								<tr>
+					<td><code>posix</code></td>
+				</tr>
+								<tr>
+					<td><code>Reflection</code></td>
+				</tr>
+								<tr>
+					<td><code>standard</code></td>
+				</tr>
+								<tr>
+					<td><code>SimpleXML</code></td>
+				</tr>
+								<tr>
+					<td><code>pdo_sqlite</code></td>
+				</tr>
+								<tr>
+					<td><code>Phar</code></td>
+				</tr>
+								<tr>
+					<td><code>tokenizer</code></td>
+				</tr>
+								<tr>
+					<td><code>xml</code></td>
+				</tr>
+								<tr>
+					<td><code>xmlreader</code></td>
+				</tr>
+								<tr>
+					<td><code>xmlwriter</code></td>
+				</tr>
+								<tr>
+					<td><code>mysqlnd</code></td>
+				</tr>
+								<tr>
+					<td><code>apache2handler</code></td>
+				</tr>
+								<tr>
+					<td><code>mcrypt</code></td>
+				</tr>
+								<tr>
+					<td><code>pdo_mysql</code></td>
+				</tr>
+								<tr>
+					<td><code>zip</code></td>
+				</tr>
+							</table>
+		</div>
+								<h3><a href="#error5c058b4212c62environment_get" onclick="return koggle('error5c058b4212c62environment_get')">$_GET</a></h3>
+		<div id="error5c058b4212c62environment_get" class="collapsed">
+			<table cellspacing="0">
+								<tr>
+					<td><code>download</code></td>
+					<td><pre><small>string</small><span>(1)</span> "1"</pre></td>
+				</tr>
+							</table>
+		</div>
+												<h3><a href="#error5c058b4212c62environment_server" onclick="return koggle('error5c058b4212c62environment_server')">$_SERVER</a></h3>
+		<div id="error5c058b4212c62environment_server" class="collapsed">
+			<table cellspacing="0">
+								<tr>
+					<td><code>REDIRECT_KOHANA_ENV</code></td>
+					<td><pre><small>string</small><span>(10)</span> "PRODUCTION"</pre></td>
+				</tr>
+								<tr>
+					<td><code>REDIRECT_STATUS</code></td>
+					<td><pre><small>string</small><span>(3)</span> "200"</pre></td>
+				</tr>
+								<tr>
+					<td><code>KOHANA_ENV</code></td>
+					<td><pre><small>string</small><span>(10)</span> "PRODUCTION"</pre></td>
+				</tr>
+								<tr>
+					<td><code>HTTP_HOST</code></td>
+					<td><pre><small>string</small><span>(14)</span> "127.0.0.1:6002"</pre></td>
+				</tr>
+								<tr>
+					<td><code>HTTP_CONNECTION</code></td>
+					<td><pre><small>string</small><span>(5)</span> "close"</pre></td>
+				</tr>
+								<tr>
+					<td><code>HTTP_ACCEPT_ENCODING</code></td>
+					<td><pre><small>string</small><span>(13)</span> "gzip, deflate"</pre></td>
+				</tr>
+								<tr>
+					<td><code>HTTP_ACCEPT</code></td>
+					<td><pre><small>string</small><span>(3)</span> "*/*"</pre></td>
+				</tr>
+								<tr>
+					<td><code>HTTP_USER_AGENT</code></td>
+					<td><pre><small>string</small><span>(56)</span> "python-requests/2.7.0 CPython/2.7.9 Linux/3.16.0-4-amd64"</pre></td>
+				</tr>
+								<tr>
+					<td><code>PATH</code></td>
+					<td><pre><small>string</small><span>(60)</span> "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"</pre></td>
+				</tr>
+								<tr>
+					<td><code>SERVER_SIGNATURE</code></td>
+					<td><pre><small>string</small><span>(72)</span> "&lt;address&gt;Apache/2.4.10 (Debian) Server at 127.0.0.1 Port 6002&lt;/address&gt;
+"</pre></td>
+				</tr>
+								<tr>
+					<td><code>SERVER_SOFTWARE</code></td>
+					<td><pre><small>string</small><span>(22)</span> "Apache/2.4.10 (Debian)"</pre></td>
+				</tr>
+								<tr>
+					<td><code>SERVER_NAME</code></td>
+					<td><pre><small>string</small><span>(9)</span> "127.0.0.1"</pre></td>
+				</tr>
+								<tr>
+					<td><code>SERVER_ADDR</code></td>
+					<td><pre><small>string</small><span>(10)</span> "172.18.0.3"</pre></td>
+				</tr>
+								<tr>
+					<td><code>SERVER_PORT</code></td>
+					<td><pre><small>string</small><span>(4)</span> "6002"</pre></td>
+				</tr>
+								<tr>
+					<td><code>REMOTE_ADDR</code></td>
+					<td><pre><small>string</small><span>(10)</span> "172.18.0.1"</pre></td>
+				</tr>
+								<tr>
+					<td><code>DOCUMENT_ROOT</code></td>
+					<td><pre><small>string</small><span>(14)</span> "/www/npppm/www"</pre></td>
+				</tr>
+								<tr>
+					<td><code>REQUEST_SCHEME</code></td>
+					<td><pre><small>string</small><span>(4)</span> "http"</pre></td>
+				</tr>
+								<tr>
+					<td><code>CONTEXT_PREFIX</code></td>
+					<td><pre><small>string</small><span>(0)</span> ""</pre></td>
+				</tr>
+								<tr>
+					<td><code>CONTEXT_DOCUMENT_ROOT</code></td>
+					<td><pre><small>string</small><span>(14)</span> "/www/npppm/www"</pre></td>
+				</tr>
+								<tr>
+					<td><code>SERVER_ADMIN</code></td>
+					<td><pre><small>string</small><span>(18)</span> "[no address given]"</pre></td>
+				</tr>
+								<tr>
+					<td><code>SCRIPT_FILENAME</code></td>
+					<td><pre><small>string</small><span>(24)</span> "/www/npppm/www/index.php"</pre></td>
+				</tr>
+								<tr>
+					<td><code>REMOTE_PORT</code></td>
+					<td><pre><small>string</small><span>(5)</span> "34165"</pre></td>
+				</tr>
+								<tr>
+					<td><code>REDIRECT_QUERY_STRING</code></td>
+					<td><pre><small>string</small><span>(10)</span> "download=1"</pre></td>
+				</tr>
+								<tr>
+					<td><code>REDIRECT_URL</code></td>
+					<td><pre><small>string</small><span>(21)</span> "/plugins/generate_xml"</pre></td>
+				</tr>
+								<tr>
+					<td><code>GATEWAY_INTERFACE</code></td>
+					<td><pre><small>string</small><span>(7)</span> "CGI/1.1"</pre></td>
+				</tr>
+								<tr>
+					<td><code>SERVER_PROTOCOL</code></td>
+					<td><pre><small>string</small><span>(8)</span> "HTTP/1.0"</pre></td>
+				</tr>
+								<tr>
+					<td><code>REQUEST_METHOD</code></td>
+					<td><pre><small>string</small><span>(3)</span> "GET"</pre></td>
+				</tr>
+								<tr>
+					<td><code>QUERY_STRING</code></td>
+					<td><pre><small>string</small><span>(10)</span> "download=1"</pre></td>
+				</tr>
+								<tr>
+					<td><code>REQUEST_URI</code></td>
+					<td><pre><small>string</small><span>(32)</span> "/plugins/generate_xml?download=1"</pre></td>
+				</tr>
+								<tr>
+					<td><code>SCRIPT_NAME</code></td>
+					<td><pre><small>string</small><span>(10)</span> "/index.php"</pre></td>
+				</tr>
+								<tr>
+					<td><code>PATH_INFO</code></td>
+					<td><pre><small>string</small><span>(21)</span> "/plugins/generate_xml"</pre></td>
+				</tr>
+								<tr>
+					<td><code>PATH_TRANSLATED</code></td>
+					<td><pre><small>string</small><span>(53)</span> "redirect:/index.php/plugins/generate_xml/generate_xml"</pre></td>
+				</tr>
+								<tr>
+					<td><code>PHP_SELF</code></td>
+					<td><pre><small>string</small><span>(31)</span> "/index.php/plugins/generate_xml"</pre></td>
+				</tr>
+								<tr>
+					<td><code>REQUEST_TIME_FLOAT</code></td>
+					<td><pre><small>float</small> 1543867202.028</pre></td>
+				</tr>
+								<tr>
+					<td><code>REQUEST_TIME</code></td>
+					<td><pre><small>integer</small> 1543867202</pre></td>
+				</tr>
+								<tr>
+					<td><code>argv</code></td>
+					<td><pre><small>array</small><span>(1)</span> <span>(
+    0 => <small>string</small><span>(10)</span> "download=1"
+)</span></pre></td>
+				</tr>
+								<tr>
+					<td><code>argc</code></td>
+					<td><pre><small>integer</small> 1</pre></td>
+				</tr>
+							</table>
+		</div>
+			</div>
+</div>

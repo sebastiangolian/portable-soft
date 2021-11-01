@@ -1,0 +1,4 @@
+Sentencje
+sent1
+sent.txt
+2

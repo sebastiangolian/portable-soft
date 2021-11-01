@@ -1,0 +1,17 @@
+Name=Warzywa=Vegetables=
+Dzial=52
+Poziom=2
+Rysunek=warzywa.png
+Tlumaczenia=1
+Wyswietlaj=1
+CzyObszar=1
+D&D_imagi=1
+Parametr3=0
+Parametr4=0
+001290 = tomato = pomidor = 41 = 273 = 17 = 118 = 148 = 142 = 
+009392 = bean = fasola = 228 = 211 = 201 = 25 = 140 = 174 = 
+001399 = onion = cebula = 400 = 267 = 395 = 109 = 150 = 138 = 
+001429 = cabbage = kapusta = 621 = 218 = 579 = 79 = 150 = 119 = 
+000852 = corn = kukurydza = 125 = 488 = 43 = 319 = 196 = 181 = 
+007377 = potato = ziemniak = 324 = 514 = 300 = 328 = 175 = 168 = 
+001563 = pumpkin = dynia = 593 = 487 = 546 = 313 = 160 = 167 = 

@@ -1,0 +1,16 @@
+Name=Pieni¹dze=Money=
+Dzial=3
+Poziom=2
+Rysunek=pieniadze.png
+Tlumaczenia=1
+Wyswietlaj=1
+CzyObszar=1
+D&D_imagi=1
+Parametr3=0
+Parametr4=0
+003602 = banknote = banknot = 92 = 227 = 58 = 53 = 200 = 139 = 
+003601 = coin = moneta = 375 = 176 = 347 = 57 = 100 = 100 = 
+011669 = cash machine = bankomat = 662 = 343 = 688 = 17 = 130 = 300 = 
+011683 = credit card = karta kredytowa = 180 = 451 = 58 = 334 = 80 = 180 = 
+011575 = wallet = portfel = 418 = 282 = 227 = 257 = 172 = 145 = 
+003603 = cheque = czek = 536 = 495 = 478 = 395 = 230 = 90 = 

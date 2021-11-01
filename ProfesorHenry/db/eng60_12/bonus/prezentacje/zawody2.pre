@@ -1,0 +1,17 @@
+Name=Zawody (2)=Professions (2)=
+Dzial=30
+Poziom=2
+Rysunek=zawody2.png
+Tlumaczenia=1
+Wyswietlaj=1
+CzyObszar=1
+D&D_imagi=1
+Parametr3=0
+Parametr4=0
+008520 = mechanic = mechanik = 145 = 230 = -3 = -1 = 164 = 220 = 
+006852 = driver = kierowca = 401 = 165 = 254 = 29 = 300 = 148 = 
+008165 = farmer = rolnik = 651 = 238 = 649 = 23 = 121 = 204 = 
+008552 = photographer = fotograf = 133 = 298 = 16 = 268 = 100 = 130 = 
+003509 = secretary = sekretarka = 303 = 494 = 12 = 411 = 260 = 140 = 
+000322 = doctor = lekarz = 318 = 432 = 387 = 215 = 72 = 200 = 
+004041 = musician = muzyk = 548 = 500 = 561 = 259 = 100 = 220 = 

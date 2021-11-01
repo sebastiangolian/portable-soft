@@ -1,0 +1,18 @@
+Name=Rodzina=Family=
+Dzial=7
+Poziom=2
+Rysunek=rodzina.png
+Tlumaczenia=1
+Wyswietlaj=1
+CzyObszar=1
+D&D_imagi=1
+Parametr3=0
+Parametr4=0
+001122 = grandfather = dziadek = 37 = 258 = 21 = 75 = 108 = 180 = 
+001147 = grandson = wnuk = 220 = 86 = 129 = 20 = 71 = 160 = 
+001118 = grandmother = babcia = 315 = 261 = 390 = 79 = 110 = 180 = 
+001146 = granddaughter = wnuczka = 577 = 115 = 514 = 54 = 72 = 160 = 
+001123 = mother = matka = 58 = 377 = 173 = 286 = 100 = 230 = 
+001121 = daughter = córka = 387 = 487 = 277 = 313 = 100 = 200 = 
+001127 = son = syn = 461 = 331 = 557 = 339 = 90 = 160 = 
+001125 = father = ojciec = 724 = 304 = 662 = 325 = 84 = 180 = 

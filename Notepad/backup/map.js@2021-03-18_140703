@@ -1,0 +1,18 @@
+//map - możliwość modyfikacji wartości w strumieniu
+
+import { map } from 'rxjs/operators';
+
+// mapowanie 
+from([1, 2, 3, 4, 5]).pipe(map(val => val + 10))
+.subscribe(console.log)																//11,12,13,14,15
+
+of(1,2,3).pipe(map((res:number) => res + 1))
+.subscribe(console.log)																//2,3,4
+
+from([{name:'Joe',age:30},{name:'Frank',age:20},{name:'Ryan',age:50}])
+.pipe(map(({name}) => name))
+.subscribe(console.log)																//"Joe","Frank","Ryan"
+
+from(['Joe Comp.','Frank Comp.','Ryan Comp.'])
+.pipe(mapTo('Micro Comp.'))
+.subscribe(console.log)																//Micro Comp.

@@ -1,0 +1,30 @@
+//MAP - obiekt do przechowywania/mapowania klucz->wartoœæ
+
+//deklaracja mapy
+var map = new Map();
+
+//ustawienie wartoœci
+map.set("test", "testValue");
+map.set("test1", "test1Value");
+
+//wyœwietlenie wartoœci
+map.forEach((value, key) => {
+	console.log(key + "=" + value);
+})
+
+// SET - obiekt do przechowywania unikalnych wartoœci
+const mySet = new Set();
+mySet.add(1);
+mySet.add(2);
+mySet.add(3);
+mySet.add('test');
+
+console.log(mySet);         // Set(4) {1, 2, 3, "test"}
+mySet.has(1);               // true
+mySet.size;                 // 5
+
+mySet.forEach(entry => {    // 1,2,3,"test"
+    console.log(entry);
+});
+
+mySet.delete(5);            

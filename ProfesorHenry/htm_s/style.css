@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.tekst { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 12px; normal; color: #000000; text-align: justify}
+A.tekst:link { color: #993300; text-decoration: underline }
+A.tekst:visited { color: #993300; text-decoration: underline}
+A.tekst:hover { color: #996600; text-decoration: underline}
+
+.naglowek_pl { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; line-height: normal; color: #000000; font-weight: bold}
+
+.naglowek_ang { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; line-height: normal; color: #999999; text-decoration: underline}
+
+.sampel {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: underline; color: #CC3300}
+A.sampel:link {  color: #CC3300 }
+A.sampel:visited {  color: #CC3300}
+A.sampel:hover {  color: #FF9900}
+
+.tekst_ang { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: normal; color: #CC3300}
+
+a {
+	color: Black;
+	text-decoration: none;
+	border-bottom: 1px #34deff solid;
+	border-bottom: 1px #ccc solid;	
+}
+
+a:hover {
+	color: #00294f;
+	text-decoration: none;
+	background-color: #c9f7ff;
+}
+
+body {
+	font-family: Tahoma, Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	color: #000000;
+	background-color: White;
+	width: 600px;
+	margin-left: 50px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 1.6em;
+	margin: 1em 0 0 0;
+}
+
+ul {
+	list-style: none;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	line-height: 1.6em;
+	background-image: url(dot1.gif);
+	background-position: 0 6px;
+	background-repeat: no-repeat;
+	padding-left: 16px;
+}
+
+code {
+	font-family: Tahoma, Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px #888 solid;
+	border-right: 1px #888 solid;
+	margin: 0 2px;
+	padding: 1px 4px;
+	background-image: url(key1.gif);
+}
+
+ul.klawisze li {
+	background-image: none;
+	padding-left: 0;
+	margin-top: 1em;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2.4em;
+	line-height: normal;
+	color: #02ade4;
+	font-weight: normal;
+	font-style: normal;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+h2 {
+	font-family: Trebuchet MS, Trebuchet;
+	font-size: 1.8em;
+	line-height: 1em;
+	color: #000000;
+	font-weight: normal;
+	margin-top: 2em;
+	border-left: 1em solid #02ade4;
+	padding-left: 0.5em;
+}
+
+h3 {
+	font-size: 1.2em;
+	line-height: normal;
+	color: #aaa;
+	font-weight: bold;
+	margin-top: 1em;
+	position: relative;
+	top: 10px;
+	margin-bottom: 0;
+}
+
+.naglowek_help { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: normal; color: #000000; font-weight: bold}

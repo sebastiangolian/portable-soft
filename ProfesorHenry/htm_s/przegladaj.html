@@ -1,0 +1,145 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+<META HTTP-EQUIV="Content-Language" CONTENT="pl">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<title>Funkcja Przeglądaj bazę i tworzenie własnych ćwiczeń</title>
+</head>
+<body>
+<h1>Funkcja <b>Przeglądaj bazę</b> i tworzenie własnych ćwiczeń</h1>
+
+Ważną i bardzo przydatną częścią programu jest funkcja <b>Przeglądaj bazę</b>, pozwalająca 
+także edytować ją. Ekran <b>Przeglądaj bazę</b> uruchamiamy z Menu głównego programu. 
+Służy on przede wszystkim do przeglądania bazy słownictwa, zarówno podstawowej 
+bazy programu, jak i dodanych baz własnych oraz wykonywania najróżniejszych operacji 
+na słówkach, zdaniach i słówkach w trybie QA. W tym rozdziale przeczytasz o tym:<br>
+<br>
+<UL TYPE="square">
+  <li>jak wybrać słówka (zdania) do nauki?</li>
+  <li>jak wydrukować wybrane słówka lub zdania?</li>
+  <li>jak zobaczyć, ilu słówek się aktualnie uczymy?</li>  <li>jak przeglądać i edytować dodane przez siebie słówka?</li>
+  <li>jak i po co wygenerować własne ćwiczenia?</li>
+  <li>jak przywrócić słówka z kosza?</li>
+  <li>jak importować plik z danymi do QA?</li>
+</UL><br />
+oraz o wielu innych przydatnych funkcjach...
+
+
+<h2>Zakładka Wszystkie</H2><br />
+Z tego poziomu możemy przejrzeć całą bazę słówek i zdań. Symbol głośnika widoczny 
+w lewej kolumnie oznacza obecność nagrania, obok widnieje symbol oznaczający typ 
+jednostki (słówko, zdanie lub tryb QA), za nim poziom trudności, a następnie słówko 
+(zdanie) angielskie i jego tłumaczenie.<br>
+<br>
+Uwaga! Po kliknięciu na dane słówko słychać jego wymowę, jednak może to spowalniać przeglądanie bazy. Odznaczenie kwadratu pod tabelą ze słówkami spowoduje, że nagrania nie będą odtwarzane, a przeglądanie bazy będzie szło sprawniej.<br><br> 
+
+<a name="wybor_slow"></a>
+<h3>Przeglądanie i wybór słówek</H3><br> 
+Wybranie słówek z bazy polega na ich zaznaczeniu i kliknięciu na strzałkę z prawej strony tabeli. Aby wybrać (zaznaczyć) pojedyncze słowo, wystarczy kliknąć na nie lewym  przyciskiem myszy. W celu wskazania kilku pozycji jednocześnie, powinniśmy przesunąć myszą z wciśniętym przyciskiem po wybranych wyrazach – do tego służą też klawisz Shift i kursory góra-dół. Po kliknięciu na strzałkę, wybrane słówka pojawią się w okienku <b>Teczka podręczna</b> z prawej strony ekranu, pod którym widoczne są następujące opcje:<br /><br />
+<UL TYPE="square">
+<a name="druk_slow"></a>
+<li><B>Wczytaj ćwiczenie</B> - otwiera katalog z ćwiczeniami ułożonymi przez Użytkownika;<br />
+<li><B>Drukuj fiszki</B> - pozwala tworzyć i drukować z wybranych zwrotów zestawy fiszek lub listy słówek;</li><br />
+<li><B>Do schowka</B> - przenosi wszystkie wybrane słówka do schowka i umożliwia wklejenie ich do pliku tekstowego (i, na przykład, wydrukowanie);</li><br />
+<li><B>Usuń wszystko</B> - usuwa wszystkie wybrane słówka, można wybierać od nowa;</li><br />
+<li><B>Usuń zaznaczone</B> - kasuje tylko jeden wybrany element, podobną funkcję pełni też klawisz Delete;</li><br />
+<li><B>Nauka</B> - pozwala od razu przejść do trybu nauki wybranych słówek;</li><br />
+<li><B>Zapisz/Zapisz jako</B> - tworzy ćwiczenie z wybranych słówek; w okienku, które się pojawi, należy podać nazwę nowego ćwiczenia, wybrać do której grupy tematycznej ma należeć i określić jego poziom trudności - więcej informacji o ćwiczeniach <a HREF="#tworzenie_cwiczen">tutaj</A>.</li>
+
+
+
+
+</UL>
+
+<h3>Dodawanie komentarza</H3><br> 
+Z poziomu <b>Przeglądaj bazę</b> możemy także dodawać, edytować i usuwać komentarze do słówek. Wystarczy zaznaczyć słówko i kliknąć przycisk <b>Komentarz</b> pod tabelą.
+
+<h3>Edycja słówek</H3><br> 
+Korzystając z funkcji <b>Przeglądaj bazę</b> możemy także edytować dodane przez siebie słówka. Należy zaznaczyć słówko (zdanie) i wybrać opcję <b>Edytuj</b>. Uwaga! Słówka z oryginalnej bazy w tej wersji <I>Profesora</I> zostały odblokowane i są dostępne do edycji.<br /><br />
+Uwaga! Możliwe jest skasowanie zmian wprowadzonych do bazy przy użyciu polecenia <b>Usuń zmiany bazy</b> w dziale <b>Inne</b> w <b>Ustawieniach</b>.<br />
+
+<a name="import_qa"></a>
+<h3>Importowanie pliku QA</H3><br> 
+Jeżeli chcemy szybko dodać do bazy kilkadziesiąt lub nawet więcej słówek za jednym razem, możemy skorzystać z opcji <b>Importuj QA</b>. Pozwala ona na wczytanie z dowolnego miejsca na dysku i zaimportowanie do bazy całego pliku tekstowego ze słówkami. Uwaga! Dane (słówka, zdania) w pliku muszą być zapisane w następujący sposób:<br><br>
+Q: first<br>
+A: pierwszy<br>
+W: 001.wav<br><br>
+
+Q: dog<br>
+A: pies<br><br>
+
+Po literze <B>Q</B> wpisujemy to, co będzie się pojawiało na ekranie jako pytanie, po literce <B>A</B> - odpowiedź (prawidłowe rozwiązanie). Jeżeli do słówka ma być dodane nagranie, po literce <B>W</B> wpisujemy nazwę pliku z rozszerzeniem <I>wav</I>, natomiast wszystkie pliki z nagraniami kopiujemy do podkatalogu <I>wav</I> we właściwym katalogu bazy - zobacz też rozdział <a HREF="wlasne_bazy.html#dystrybucja">Dodawanie słówek i zdań oraz tworzenie nowej bazy - Dystrybucja i importowanie bazy</a>.<br />
+Uwaga! Plik tekstowy musi być zakodowany w Unicode.
+
+
+<a name="filtr"></a>
+<h2>Zakładka Filtr</H2><br />
+
+Zakładka Filtr w „Przeglądaj bazę” umożliwia wybieranie słówek z bazy według indywidualnych ustawień. Do wyboru mamy następujące filtry:<br /><br />
+<UL TYPE="square">
+  <li><B>Grupa tematyczna</B> - wybór słówek z konkretnej grupy tematycznej, np. 
+    tylko Własne;</li>
+  <br>
+  <li><B>Poziom</B> - wybór słówek z danego poziomu trudności;</li>
+  <br>
+  <li><B>Typ</B> - wybór słówek według rodzajów gramatycznych (rzeczowniki, czasowniki, 
+    przymiotniki, przysłówki, zdania, inne);</li>
+  <br>
+  <li><B>Typ jednostki</B> - wybór jednostek ćwiczeniowych (słówka, zdania, tryb 
+    QA);</li>
+  <br>
+  <li><B>Uczysz się</B> - „tak” - wybór słówek w trakcie nauki, „nie” - słówka 
+    pozostałe;</li>
+  <br>
+  <li><B>Inne</B> - wybór słówek według innych kryteriów (własne, w koszu, nr 
+    powtórki >5, nr powtórki >10, interwał >10, zmienione);</li>
+  <br>
+  <br>
+</ul>
+
+<br>
+Przykłady wykorzystania:<br><br>
+Aby przywrócić do nauki słówka, które umieściliśmy w koszu, wystarczy wybrać Filtr/Inne:/W koszu. Program wyświetli wszystkie słówka (zdania), które usunęliśmy z nauki i powtórek. Wystarczy zaznaczyć te, które chcemy przywrócić, i nacisnąć przycisk Przywróć umieszczony pod tabelą ze słówkami. <br><br>
+
+Jeżeli chcemy przejrzeć słówka, których się jeszcze nigdy nie uczyliśmy, należy zaznaczyć opcję <b>Uczysz się</b> - Tak/Nie. Program wygeneruje wszystkie słówka (zdania), które jeszcze nie były ćwiczone. Korzystając z Przeglądaj można z nich utworzyć własne ćwiczenie i natychmiast przejść do nauki (przycisk Nauka) lub zapisać je i wykonać później (przycisk Zapisz).<br><br>
+
+<a name="szukaj"></a>
+<h2>Zakładka Szukaj</H2><br />
+
+Ta opcja umożliwia przeszukanie bazy i odnalezienie wszystkich słów lub wyrażeń zawierających szukany ciąg znaków. Dostępne są następujące opcje:<br /><br />
+<UL TYPE="square">
+<li><B>Tylko całe wyrazy</B></li>
+<li><B>Rozróżniaj duże i małe litery</B></li>
+<li><B>Szukaj wśród angielskich</B></li>
+<li><B>Szukaj wśród polskich</B></li>
+  <li><B>Szukaj całej frazy</B></li> - w porównaniu do opcji <b>Tylko całe wyrazy</b>, funkcja <Szukaj całej frazy</b> znacznie zawęża zakres wyszukiwania, ponieważ znajduje tylko te jednostki, które zawierają wpisane przez nas wyrażenie.
+</ul>
+
+<a name="tworzenie_cwiczen"></a>
+<h2>Tworzenie własnych ćwiczeń</h2><br />
+
+<B>Co to jest ćwiczenie i do czego służy?</B><br><br>
+
+Podstawowy tryb nauki z <I>Profesorem</I> polega na wykonywaniu powtórek oraz uczeniu się nowego materiału wybranego losowo. Możemy oczywiście wpływać na ten wybór poprzez zawężenie zakresu losowania np. do wybranej grupy tematycznej. Niemniej jednak, wybór nadal pozostaje  losowy. Jeżeli chcemy uczyć się konkretnych słówek, na przykład przygotowujemy się do testu na kursie czy w szkole z określonego materiału lub chcemy poznać wąski zakres słownictwa specjalistycznego, możemy samodzielnie wybrać zestaw słówek do nauki. W tym celu należy stworzyć własne ćwiczenie.<br><br>
+
+<B>Jak tworzyć ćwiczenia?</B><br><br>
+Użytkownik ma możliwość stworzenia ćwiczeń z wybranymi przez siebie słówkami. 
+Aby to zrobić, należy w <b>Przeglądaj bazę</b> zaznaczyć wyrażenia, których chcemy 
+się nauczyć i przenieść je do okienka <b>Teczka podręczna</b>, klikając na strzałkę. Następnie wybrać <b>Zapisz</b> lub <b>Zapisz jako</b> i wpisać nazwę 
+ćwiczenia oraz grupę tematyczną, do której ma ono zostać dodane. Ćwiczenie zostanie 
+zapisane i będzie można je znaleźć w dziale <b>Ćwiczenia dodatkowe</b> w wybranej przez nas kategorii. 
+Przy wyborze słówek można posiłkować się funkcją <a href="#filtr"><b>Filtr</b></a> 
+lub <b>Szukaj</b>, żeby sprawnie wynajdywać potrzebne słowa. Jeżeli nie chcemy 
+zapisywać danej paczki słówek jako nowego ćwiczenia, wystarczy, że po ich wybraniu, 
+klikniemy w przycisk <b>Nauka</b>. Ćwiczenie ze słówkami zostanie przygotowane, ale nie 
+będzie zapisane w programie.<br />
+Z wybranych słówek można również przygotować fiszki i listy słówek naciskając przycisk <a href="fiszki.html">Drukuj fiszki</a>.
+<BR><BR>
+
+
+
+
+
+</body>
+
+</html>
