@@ -6,7 +6,7 @@ Jêzyk angielski
 0
 Profesor Henry 6.0 - S³ownik tematyczny
 eng60_12
-C:\projekty\portable\portable\ProfesorHenry\bsslow3 
+C:\projekty\portable-soft\ProfesorHenry\bsslow3 
 Edgard
 
 7
