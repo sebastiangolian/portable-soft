@@ -1,9 +1,10 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="1">
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="819" startPos="500" endPos="500" selMode="0" lang="JavaScript" encoding="-1" filename="C:\projekty\portable\snippets\JS\rxjs\_examples.js" backupFilePath="" originalFileLastModifTimestamp="1628792388" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="1050" startPos="1205" endPos="1205" selMode="0" lang="Zwyk&#x0142;y tekst" encoding="65001" filename="C:\projekty\portable\snippets\YNNE\git.txt" backupFilePath="" originalFileLastModifTimestamp="1630832667" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="819" startPos="0" endPos="0" selMode="0" lang="Zwyk&#x0142;y tekst" encoding="-1" filename="C:\projekty\portable\snippets\YNNE\gitlab.txt" backupFilePath="" originalFileLastModifTimestamp="1622139529" />
+        <mainView activeIndex="0">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="609" startPos="0" endPos="0" selMode="0" lang="JavaScript" encoding="-1" filename="C:\projekty\portable\snippets\JS\react\basic-app.ts" backupFilePath="" originalFileLastModifTimestamp="1636908170" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="259" startPos="228" endPos="198" selMode="0" lang="JavaScript" encoding="-1" filename="C:\projekty\portable\snippets\JS\js\timeout.js" backupFilePath="" originalFileLastModifTimestamp="1635860904" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="504" startPos="0" endPos="0" selMode="0" lang="JavaScript" encoding="-1" filename="C:\projekty\portable\snippets\JS\react\component.react.ts" backupFilePath="" originalFileLastModifTimestamp="1636908170" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="539" startPos="0" endPos="0" selMode="0" lang="JavaScript" encoding="-1" filename="C:\projekty\portable\snippets\JS\react\component-functional.ts" backupFilePath="" originalFileLastModifTimestamp="1636908170" />
         </mainView>
         <subView activeIndex="0" />
     </Session>
